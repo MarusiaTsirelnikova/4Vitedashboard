@@ -1,0 +1,298 @@
+body{
+    margin: 0px;
+    background: #FBF9F1;
+    font-family: 'Inter';
+    font-size: 24px;
+}
+
+h3{
+    font-family: 'Rubik One';
+}
+
+h4{
+    font-family: 'Rubik One';
+}
+
+#root{
+    display: flex;
+    margin: 0;
+}
+
+#sidebar{
+    position: fixed;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    width: 350px;
+    height: 729px;
+    background-color: #92C7CF;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0px;
+    height: 350px;
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.nav li{
+    display: inline-block;
+    padding: 30px 50px;
+}
+
+.nav li:hover{
+    background: #5E959D;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.main{
+    display: flex;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 450px;
+    height: 600px;
+}
+
+.GreetingCard{
+    background-image: url(/public/фрейм\ 2.png);
+    width: 987px;
+    height: 229px;
+    background-position: center;
+    overflow: hidden;
+}
+
+.GreetingCard img{
+    margin-top: 15px;
+    float: right;
+    max-width: 200px;
+    height: auto;
+}
+
+.News{
+    text-align: center;
+    padding: 20px 0px 20px;
+    background: #92C7CF;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+.News a{
+    font-family: 'Rubic One';
+    color: white;
+    text-decoration: none;
+}
+
+.nextCard a:hover{
+    background: #5E959D;
+}
+
+.News a:hover{
+    background: #5E959D;
+}
+
+.card{
+    position: absolute;
+    left: 400px;
+    top: 50px;
+}
+
+.patientCard{
+    background-image: url(/public/фрейм\ 2.png);
+    width: 987px;
+    height: 229px;
+    background-position: center;
+    margin-top: 20px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.patientCard img{
+    margin-top: 10px;
+    float: right;
+    max-width: 350px;
+    height: auto;
+}
+
+.aboutPet{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 20px;
+    left: 550px;
+    width: 500px;
+    height: 600px;
+    background: white;
+    border-radius: 25px;
+}
+
+.aboutPet img{
+    float: right;
+    margin: 10px 10px 0px 0px;
+    border: 7px solid;
+    border-color: #92C7CF;
+    border-radius: 25px;
+    max-width: 200px;
+    height: auto;
+}
+
+.data{
+    margin-top: 20px;
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.modalBTN{
+    background-color: #92C7CF;
+    border-radius: 25px;
+    color: white;
+}
+
+.modalBTN{
+    background: #5E959D;
+}
+
+#modal-modal-title{
+    padding: 10px 0px 0px 10px;
+    font-family: "Rubik One";
+    font-size: 28px;
+}
+
+.cont{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.first{
+    font-family: 'Rubik One';
+}
+
+.diagnosies{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.recep{
+    display: flex;
+    width: 987px;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 420px;
+}
+
+.reception{
+    border-radius: 25px;
+    background: white;
+    margin-top: 20px;
+    height: 1000px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.form-reception-cb{
+    width: 800px;
+}
+
+.form-reception{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.informCard{
+    background-image: url(/public/фрейм\ 2.png);
+    height: 229px;
+    background-position: center;
+    overflow: hidden;
+    border-radius: 25px;
+    font-size: 28px;
+}
+
+.submit{
+    background: #92C7CF;
+    padding: 25px 50px 25px;
+    border-radius: 25px;
+    outline: none;
+    color: white;
+    text-decoration: none;
+    font-family: 'Rubik One';
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.form-reception-cb{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.form-reception-an input{
+    display: flex;
+    width: 650px;
+    height: 150px;
+}
+
+.usefullLinks{
+    display: flex;
+    flex-wrap: wrap;
+    width: 680px;
+    height: 650px;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 420px;
+}
+
+.linkCard{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background:#92C7CF;
+    padding: 10px;
+    border-radius: 25px;
+    color: white;
+    width: 300px;
+    height: 130px;
+}
+
+.linkCard a{
+    outline: none;
+    color: white;
+    text-decoration: none;
+    font-family: 'Rubik One';
+}
+
+@font-face {
+    font-family: "Rubik One"; 
+    src: url("/fonts/RubikOne-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+  } 
+
+@font-face {
+    font-family: "Inter"; 
+    src: url("/fonts/Inter-VariableFont_slnt\,wght.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
